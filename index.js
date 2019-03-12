@@ -13,7 +13,8 @@ app.listen(port,()=>{ console.log("Node app is running on " + port ) });
 
 //mongoose.connect(db.database, { useNewUrlParser: true });
 
-mongoose.connect('mongodb://localhost:27017/myapp', {useNewUrlParser: true});
+//mongodb://<dbuser>:<dbpassword>@ds161183.mlab.com:61183/amazonweb
+mongoose.connect('mongodb://amazonwebuser:password123@ds161183.mlab.com:61183/amazonweb', { useNewUrlParser:true});
 
 require('./config/route')(app);
 // app.get('/getdata',function(req, res){

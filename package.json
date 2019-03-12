@@ -4,6 +4,7 @@
   "description": "this is about make config, server(api and model) directory",
   "main": "index.js",
   "scripts": {
+    "start":"node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "charanjit",
