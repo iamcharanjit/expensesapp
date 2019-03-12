@@ -1,0 +1,21 @@
+{
+  "name": "node0602",
+  "version": "1.2.0",
+  "description": "this is about make config, server(api and model) directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "charanjit",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "get-youtube-id": "^1.0.1",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.22.2",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.4.10"
+  }
+}
