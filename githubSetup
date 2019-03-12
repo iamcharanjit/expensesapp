@@ -1,8 +1,8 @@
 git init
 
-git add.
+git add .
 
-git config --global user.name "iamcharanjit"
+git config --global user.name "<username>"
 
 git commit -m "first commit"
 

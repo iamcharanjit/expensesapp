@@ -47,6 +47,19 @@ router.get('/getcategory', auth.authenticate, function(req, res) {
 
 })
 
+router.get('/getallcategory', function(req, res) {
+
+	collectionModel.find({}, function(error, result){
+		if(error) { console.log(error) }
+		res.send({result});
+	})	
+	
+	
+	
+	// END check usee
+	
+})
+
 router.post('/addcategory', auth.authenticate, function(req, res) {
 	// console.log(req.body)
 	// check user
